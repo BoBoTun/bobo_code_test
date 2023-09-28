@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (5.7.1)
+  - CombineCocoa (0.4.1)
+  - CRRefresh (1.1.3)
+  - IQKeyboardManagerSwift (6.5.12)
+  - Kingfisher (7.9.0)
+  - lottie-ios (4.3.2)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - Realm (10.20.1):
+    - Realm/Headers (= 10.20.1)
+  - Realm/Headers (10.20.1)
+  - RealmSwift (10.20.1):
+    - Realm (= 10.20.1)
+  - SkeletonView (1.30.4)
+  - SnapKit (5.6.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - CombineCocoa
+  - CRRefresh
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - lottie-ios
+  - NVActivityIndicatorView (~> 4.8.0)
+  - RealmSwift
+  - SkeletonView
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - CombineCocoa
+    - CRRefresh
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios
+    - NVActivityIndicatorView
+    - Realm
+    - RealmSwift
+    - SkeletonView
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
+  CombineCocoa: e5210dbfb480ff251078929459ac17e750e7af1d
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  IQKeyboardManagerSwift: 371b08cb39664fb56030f5345c815a4ffc74bbc0
+  Kingfisher: 59f908b6d2f403b0a3e539debb0eec05cb27002c
+  lottie-ios: 48af491639ba6e8bb7cfaf7649b8a339487da935
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  Realm: fac5ecd031fcb81171627b74944c885662d4b266
+  RealmSwift: 9b02d25acb46a14756bde9893abb99e2e3675923
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+
+PODFILE CHECKSUM: 94fc62f0bab3f59b94f810465679c037f57c505d
+
+COCOAPODS: 1.12.1
