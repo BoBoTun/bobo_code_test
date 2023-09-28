@@ -37,4 +37,10 @@ extension AppScreens {
         let vc = RegisterViewController.init()
         currentVC?.navigationController?.pushViewController(vc, animated: true)
     }
+    
+    func navigateToBookDetailVC(book: Book){
+        let vc = BookDetailViewController.init()
+        vc.book = book
+        currentVC?.navigationController?.pushViewController(vc, animated: true)
+    }
 }

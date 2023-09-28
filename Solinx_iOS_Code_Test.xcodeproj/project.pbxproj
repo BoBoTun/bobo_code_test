@@ -54,9 +54,9 @@
 		5220E7332AC40C0200FCB260 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5220E72F2AC40C0200FCB260 /* RegisterViewController.xib */; };
 		5220E7342AC40C0200FCB260 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5220E72F2AC40C0200FCB260 /* RegisterViewController.xib */; };
 		5220E7352AC40C0200FCB260 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5220E72F2AC40C0200FCB260 /* RegisterViewController.xib */; };
-		5220E7382AC429F000FCB260 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7372AC429F000FCB260 /* UIViewExtention.swift */; };
-		5220E7392AC429F000FCB260 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7372AC429F000FCB260 /* UIViewExtention.swift */; };
-		5220E73A2AC429F000FCB260 /* UIViewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7372AC429F000FCB260 /* UIViewExtention.swift */; };
+		5220E7382AC429F000FCB260 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7372AC429F000FCB260 /* UIView + Extension.swift */; };
+		5220E7392AC429F000FCB260 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7372AC429F000FCB260 /* UIView + Extension.swift */; };
+		5220E73A2AC429F000FCB260 /* UIView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7372AC429F000FCB260 /* UIView + Extension.swift */; };
 		5220E7422AC4367C00FCB260 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7402AC4367C00FCB260 /* BaseViewController.swift */; };
 		5220E7432AC4367C00FCB260 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7402AC4367C00FCB260 /* BaseViewController.swift */; };
 		5220E7442AC4367C00FCB260 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7402AC4367C00FCB260 /* BaseViewController.swift */; };
@@ -79,11 +79,19 @@
 		5220E7632AC43D0A00FCB260 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7622AC43D0A00FCB260 /* UIViewController + Extension.swift */; };
 		52882D002AC5D04200A5EF2A /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882CFF2AC5D04100A5EF2A /* AlertManager.swift */; };
 		52882D032AC5D10D00A5EF2A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D022AC5D10D00A5EF2A /* HomeScreen.swift */; };
+		52882D062AC5DE2400A5EF2A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D052AC5DE2400A5EF2A /* HomeViewModel.swift */; };
+		52882D082AC5DF1200A5EF2A /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D072AC5DF1200A5EF2A /* BookModel.swift */; };
+		52882D0A2AC5E42800A5EF2A /* Data + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D092AC5E42800A5EF2A /* Data + Extension.swift */; };
+		52882D0C2AC5E8F400A5EF2A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D0B2AC5E8F400A5EF2A /* Book.swift */; };
+		52882D0F2AC5F1EF00A5EF2A /* BookDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D0D2AC5F1EF00A5EF2A /* BookDetailViewController.swift */; };
+		52882D102AC5F1EF00A5EF2A /* BookDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52882D0E2AC5F1EF00A5EF2A /* BookDetailViewController.xib */; };
+		52882D162AC5F23F00A5EF2A /* BookItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D142AC5F23F00A5EF2A /* BookItemTableViewCell.swift */; };
+		52882D172AC5F23F00A5EF2A /* BookItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52882D152AC5F23F00A5EF2A /* BookItemTableViewCell.xib */; };
+		52882D192AC5F50100A5EF2A /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D182AC5F50100A5EF2A /* UITableView+Extension.swift */; };
 		52AB27012AC48672003ACC53 /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB26FF2AC48671003ACC53 /* InternetConnectionManager.swift */; };
 		52AB27022AC48672003ACC53 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27002AC48672003ACC53 /* UserDefaultManager.swift */; };
 		52AB270A2AC4871A003ACC53 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27042AC48718003ACC53 /* APIService.swift */; };
 		52AB270B2AC4871A003ACC53 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27052AC48718003ACC53 /* APIError.swift */; };
-		52AB270C2AC4871A003ACC53 /* APIExamples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27062AC48719003ACC53 /* APIExamples.swift */; };
 		52AB270D2AC4871A003ACC53 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27072AC48719003ACC53 /* APIConfig.swift */; };
 		52AB270E2AC4871A003ACC53 /* APIMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27082AC48719003ACC53 /* APIMethod.swift */; };
 		52AB270F2AC4871A003ACC53 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27092AC4871A003ACC53 /* APIRequest.swift */; };
@@ -96,7 +104,7 @@
 		52AB27202AC5325E003ACC53 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB271F2AC5325D003ACC53 /* DBManager.swift */; };
 		52AB27252AC5784F003ACC53 /* UserRo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27242AC5784F003ACC53 /* UserRo.swift */; };
 		52AB27282AC57976003ACC53 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27272AC57976003ACC53 /* UserModel.swift */; };
-		52AB272B2AC593C5003ACC53 /* UserVo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB272A2AC593C5003ACC53 /* UserVo.swift */; };
+		52AB272B2AC593C5003ACC53 /* BookVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB272A2AC593C5003ACC53 /* BookVO.swift */; };
 		5AA7225FCE98A6F919E76083 /* Pods_Solinx_iOS_Code_Test_Solinx_iOS_Code_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55E45CC9104EBDB319DFC92 /* Pods_Solinx_iOS_Code_Test_Solinx_iOS_Code_TestUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -145,7 +153,7 @@
 		5220E7272AC40BEE00FCB260 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		5220E72E2AC40C0200FCB260 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		5220E72F2AC40C0200FCB260 /* RegisterViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
-		5220E7372AC429F000FCB260 /* UIViewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtention.swift; sourceTree = "<group>"; };
+		5220E7372AC429F000FCB260 /* UIView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extension.swift"; sourceTree = "<group>"; };
 		5220E7402AC4367C00FCB260 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		5220E7412AC4367C00FCB260 /* BaseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BaseViewController.xib; sourceTree = "<group>"; };
 		5220E7482AC4369800FCB260 /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
@@ -160,11 +168,19 @@
 		5220E7622AC43D0A00FCB260 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
 		52882CFF2AC5D04100A5EF2A /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
 		52882D022AC5D10D00A5EF2A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		52882D052AC5DE2400A5EF2A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		52882D072AC5DF1200A5EF2A /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		52882D092AC5E42800A5EF2A /* Data + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data + Extension.swift"; sourceTree = "<group>"; };
+		52882D0B2AC5E8F400A5EF2A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		52882D0D2AC5F1EF00A5EF2A /* BookDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDetailViewController.swift; sourceTree = "<group>"; };
+		52882D0E2AC5F1EF00A5EF2A /* BookDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookDetailViewController.xib; sourceTree = "<group>"; };
+		52882D142AC5F23F00A5EF2A /* BookItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookItemTableViewCell.swift; sourceTree = "<group>"; };
+		52882D152AC5F23F00A5EF2A /* BookItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BookItemTableViewCell.xib; sourceTree = "<group>"; };
+		52882D182AC5F50100A5EF2A /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		52AB26FF2AC48671003ACC53 /* InternetConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
 		52AB27002AC48672003ACC53 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
 		52AB27042AC48718003ACC53 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		52AB27052AC48718003ACC53 /* APIError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
-		52AB27062AC48719003ACC53 /* APIExamples.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIExamples.swift; sourceTree = "<group>"; };
 		52AB27072AC48719003ACC53 /* APIConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 		52AB27082AC48719003ACC53 /* APIMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIMethod.swift; sourceTree = "<group>"; };
 		52AB27092AC4871A003ACC53 /* APIRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
@@ -177,7 +193,7 @@
 		52AB271F2AC5325D003ACC53 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
 		52AB27242AC5784F003ACC53 /* UserRo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRo.swift; sourceTree = "<group>"; };
 		52AB27272AC57976003ACC53 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
-		52AB272A2AC593C5003ACC53 /* UserVo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserVo.swift; sourceTree = "<group>"; };
+		52AB272A2AC593C5003ACC53 /* BookVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookVO.swift; sourceTree = "<group>"; };
 		85714B609744F36A5465D9D9 /* Pods_Solinx_iOS_Code_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solinx_iOS_Code_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0F0ED8C946F8AC8A83993F9 /* Pods-Solinx_iOS_Code_Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solinx_iOS_Code_Test.debug.xcconfig"; path = "Target Support Files/Pods-Solinx_iOS_Code_Test/Pods-Solinx_iOS_Code_Test.debug.xcconfig"; sourceTree = "<group>"; };
 		C0D913D465D07F9BBFB5FC7A /* Pods_Solinx_iOS_Code_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solinx_iOS_Code_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -356,6 +372,8 @@
 		5220E7182AC4092600FCB260 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				52882D112AC5F20C00A5EF2A /* Cells */,
+				52882D042AC5DE0B00A5EF2A /* ViewModels */,
 				52882D012AC5D0F300A5EF2A /* Navigation */,
 				5220E71A2AC4093800FCB260 /* Views */,
 				5220E7192AC4092F00FCB260 /* ViewControllers */,
@@ -367,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				5220E71B2AC4095D00FCB260 /* HomeViewController.swift */,
+				52882D0D2AC5F1EF00A5EF2A /* BookDetailViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -374,6 +393,7 @@
 		5220E71A2AC4093800FCB260 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				52882D0E2AC5F1EF00A5EF2A /* BookDetailViewController.xib */,
 				5220E71C2AC4095D00FCB260 /* HomeViewController.xib */,
 			);
 			path = Views;
@@ -411,11 +431,13 @@
 		5220E7362AC4287200FCB260 /* Extentions */ = {
 			isa = PBXGroup;
 			children = (
+				52882D182AC5F50100A5EF2A /* UITableView+Extension.swift */,
+				52882D092AC5E42800A5EF2A /* Data + Extension.swift */,
 				5220E7622AC43D0A00FCB260 /* UIViewController + Extension.swift */,
 				5220E7602AC43CB200FCB260 /* UIColor + Extension.swift */,
 				5220E75E2AC43C8700FCB260 /* UIDevice + Extension.swift */,
 				5220E7592AC43C2800FCB260 /* UIImage + Extension.swift */,
-				5220E7372AC429F000FCB260 /* UIViewExtention.swift */,
+				5220E7372AC429F000FCB260 /* UIView + Extension.swift */,
 			);
 			path = Extentions;
 			sourceTree = "<group>";
@@ -506,6 +528,39 @@
 			path = Navigation;
 			sourceTree = "<group>";
 		};
+		52882D042AC5DE0B00A5EF2A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				52882D052AC5DE2400A5EF2A /* HomeViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		52882D112AC5F20C00A5EF2A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				52882D132AC5F21B00A5EF2A /* Xibs */,
+				52882D122AC5F21400A5EF2A /* Swifts */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		52882D122AC5F21400A5EF2A /* Swifts */ = {
+			isa = PBXGroup;
+			children = (
+				52882D142AC5F23F00A5EF2A /* BookItemTableViewCell.swift */,
+			);
+			path = Swifts;
+			sourceTree = "<group>";
+		};
+		52882D132AC5F21B00A5EF2A /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				52882D152AC5F23F00A5EF2A /* BookItemTableViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
 		52AB26FE2AC48642003ACC53 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -523,7 +578,6 @@
 			children = (
 				52AB27072AC48719003ACC53 /* APIConfig.swift */,
 				52AB27052AC48718003ACC53 /* APIError.swift */,
-				52AB27062AC48719003ACC53 /* APIExamples.swift */,
 				52AB27082AC48719003ACC53 /* APIMethod.swift */,
 				52AB27092AC4871A003ACC53 /* APIRequest.swift */,
 				52AB27042AC48718003ACC53 /* APIService.swift */,
@@ -570,6 +624,7 @@
 			isa = PBXGroup;
 			children = (
 				52AB27272AC57976003ACC53 /* UserModel.swift */,
+				52882D072AC5DF1200A5EF2A /* BookModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -577,7 +632,8 @@
 		52AB27292AC593AE003ACC53 /* VOs */ = {
 			isa = PBXGroup;
 			children = (
-				52AB272A2AC593C5003ACC53 /* UserVo.swift */,
+				52AB272A2AC593C5003ACC53 /* BookVO.swift */,
+				52882D0B2AC5E8F400A5EF2A /* Book.swift */,
 			);
 			path = VOs;
 			sourceTree = "<group>";
@@ -703,10 +759,12 @@
 			files = (
 				5220E72B2AC40BEF00FCB260 /* LoginViewController.xib in Resources */,
 				5220E7452AC4367C00FCB260 /* BaseViewController.xib in Resources */,
+				52882D102AC5F1EF00A5EF2A /* BookDetailViewController.xib in Resources */,
 				5220E6FB2AC3F33800FCB260 /* books.json in Resources */,
 				5220E6EB2AC3EE8C00FCB260 /* animation_ln19izi1.lottie in Resources */,
 				5220E6C62AC3DB2500FCB260 /* LaunchScreen.storyboard in Resources */,
 				5220E6C32AC3DB2500FCB260 /* Assets.xcassets in Resources */,
+				52882D172AC5F23F00A5EF2A /* BookItemTableViewCell.xib in Resources */,
 				5220E7332AC40C0200FCB260 /* RegisterViewController.xib in Resources */,
 				5220E6F72AC3EF6C00FCB260 /* SplashViewController.xib in Resources */,
 				5220E7202AC4095D00FCB260 /* HomeViewController.xib in Resources */,
@@ -855,7 +913,10 @@
 			files = (
 				52AB27012AC48672003ACC53 /* InternetConnectionManager.swift in Sources */,
 				5220E75D2AC43C6D00FCB260 /* RoundedCornerUIButton.swift in Sources */,
-				5220E7382AC429F000FCB260 /* UIViewExtention.swift in Sources */,
+				5220E7382AC429F000FCB260 /* UIView + Extension.swift in Sources */,
+				52882D082AC5DF1200A5EF2A /* BookModel.swift in Sources */,
+				52882D062AC5DE2400A5EF2A /* HomeViewModel.swift in Sources */,
+				52882D0A2AC5E42800A5EF2A /* Data + Extension.swift in Sources */,
 				5220E7302AC40C0200FCB260 /* RegisterViewController.swift in Sources */,
 				5220E75F2AC43C8700FCB260 /* UIDevice + Extension.swift in Sources */,
 				52882D002AC5D04200A5EF2A /* AlertManager.swift in Sources */,
@@ -867,6 +928,7 @@
 				5220E7632AC43D0A00FCB260 /* UIViewController + Extension.swift in Sources */,
 				52AB271E2AC4909C003ACC53 /* AuthenticationModel.swift in Sources */,
 				5220E6BE2AC3DB1F00FCB260 /* ViewController.swift in Sources */,
+				52882D192AC5F50100A5EF2A /* UITableView+Extension.swift in Sources */,
 				5220E7492AC4369800FCB260 /* BaseViewModel.swift in Sources */,
 				5220E6BA2AC3DB1F00FCB260 /* AppDelegate.swift in Sources */,
 				52AB271B2AC48F2D003ACC53 /* AuthenticationScreen.swift in Sources */,
@@ -875,7 +937,9 @@
 				5220E7282AC40BEF00FCB260 /* LoginViewController.swift in Sources */,
 				5220E7552AC438B500FCB260 /* CustomViews.swift in Sources */,
 				52AB27132AC48A19003ACC53 /* Helper.swift in Sources */,
-				52AB272B2AC593C5003ACC53 /* UserVo.swift in Sources */,
+				52882D162AC5F23F00A5EF2A /* BookItemTableViewCell.swift in Sources */,
+				52AB272B2AC593C5003ACC53 /* BookVO.swift in Sources */,
+				52882D0F2AC5F1EF00A5EF2A /* BookDetailViewController.swift in Sources */,
 				52AB27202AC5325E003ACC53 /* DBManager.swift in Sources */,
 				52AB27112AC4886E003ACC53 /* BaseTableViewController.swift in Sources */,
 				52AB270E2AC4871A003ACC53 /* APIMethod.swift in Sources */,
@@ -883,8 +947,8 @@
 				5220E7102AC4048E00FCB260 /* AppScreens.swift in Sources */,
 				5220E71D2AC4095D00FCB260 /* HomeViewController.swift in Sources */,
 				5220E7582AC4391E00FCB260 /* BaseView.swift in Sources */,
-				52AB270C2AC4871A003ACC53 /* APIExamples.swift in Sources */,
 				52AB27182AC48AAB003ACC53 /* LocalizationManager.swift in Sources */,
+				52882D0C2AC5E8F400A5EF2A /* Book.swift in Sources */,
 				52AB270F2AC4871A003ACC53 /* APIRequest.swift in Sources */,
 				52AB270A2AC4871A003ACC53 /* APIService.swift in Sources */,
 				52AB27162AC48A9B003ACC53 /* UserDefaultModel.swift in Sources */,
@@ -909,7 +973,7 @@
 				5220E6D12AC3DB2600FCB260 /* Solinx_iOS_Code_TestTests.swift in Sources */,
 				5220E7432AC4367C00FCB260 /* BaseViewController.swift in Sources */,
 				5220E6F52AC3EF6C00FCB260 /* SplashViewController.swift in Sources */,
-				5220E7392AC429F000FCB260 /* UIViewExtention.swift in Sources */,
+				5220E7392AC429F000FCB260 /* UIView + Extension.swift in Sources */,
 				5220E7112AC4048E00FCB260 /* AppScreens.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -927,7 +991,7 @@
 				5220E6DD2AC3DB2600FCB260 /* Solinx_iOS_Code_TestUITestsLaunchTests.swift in Sources */,
 				5220E7442AC4367C00FCB260 /* BaseViewController.swift in Sources */,
 				5220E6DB2AC3DB2600FCB260 /* Solinx_iOS_Code_TestUITests.swift in Sources */,
-				5220E73A2AC429F000FCB260 /* UIViewExtention.swift in Sources */,
+				5220E73A2AC429F000FCB260 /* UIView + Extension.swift in Sources */,
 				5220E7122AC4048E00FCB260 /* AppScreens.swift in Sources */,
 				5220E71F2AC4095D00FCB260 /* HomeViewController.swift in Sources */,
 			);

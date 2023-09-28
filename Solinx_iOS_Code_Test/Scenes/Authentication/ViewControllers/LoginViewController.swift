@@ -23,6 +23,7 @@ class LoginViewController: BaseViewController {
         passwordBgView.roundCorners(.allCorners, radius: self.passwordBgView.frame.height / 2)
         hideNavigationBar()
         txtPassword.isSecureTextEntry = true
+        
     }
     
     override func bindData() {

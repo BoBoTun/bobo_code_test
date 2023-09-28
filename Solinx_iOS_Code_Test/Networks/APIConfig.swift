@@ -6,11 +6,11 @@ struct APIConfig {
     
     #if DEBUG
     
-    static private let url = "staging.z-waka.com"
+    static private let url = "https://www.dbooks.org"
     
     #else
     
-    static private let url = "staging.z-waka.com"
+    static private let url = "https://www.dbooks.org"
     
     #endif
 
@@ -19,21 +19,12 @@ struct APIConfig {
     }
 
 }
-
 extension APIConfig {
-    enum Login {
-        case tryToLogin
+    enum GetBooks {
+        case getBooks
         
-        func urlString() -> String{
-            return "/api/v2/doctor_account.sign_in_email"
-        }
-    }
-    
-    enum ConnectionList {
-        case getConnectionList
-        
-        func urlString() -> String{
-            return "/api/v2/doctor.get_connection_list"
+        func urlStringWithSearchKey(searchKey : String) -> String{
+            return APIConfig.baseUrl + "/api/search/" + searchKey
         }
     }
 }

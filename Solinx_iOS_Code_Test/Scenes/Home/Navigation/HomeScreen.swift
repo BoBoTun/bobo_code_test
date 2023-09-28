@@ -10,10 +10,13 @@ class HomeScreen {
     enum HomeVC {
         
         case navigateToLoginVC
+        case navigateToBookDetailVC(_ book : Book)
         func show() {
             switch self {
             case .navigateToLoginVC:
                 AppScreens.shared.navigateToLoginVC()
+            case .navigateToBookDetailVC(let book):
+                AppScreens.shared.navigateToBookDetailVC(book: book)
             }
         }
     }

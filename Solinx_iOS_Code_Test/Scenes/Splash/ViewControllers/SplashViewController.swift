@@ -10,7 +10,6 @@ import Lottie
 class SplashViewController: UIViewController {
 
     @IBOutlet weak var animationView: LottieAnimationView!
-    //var animationView: LottieAnimationView?
     override func viewDidLoad() {
         super.viewDidLoad()
           animationView!.frame = view.bounds

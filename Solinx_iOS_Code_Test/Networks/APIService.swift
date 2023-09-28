@@ -11,6 +11,7 @@ protocol APIServiceProtocol {
 
 final class APIService: APIServiceProtocol {
     
+    
     static let shared = APIService()
     
     func requestCombine(url : String,
@@ -63,39 +64,10 @@ final class APIService: APIServiceProtocol {
                        parameters : [String : Any] = [:] ,
                        method : APIMethod = .get,
                        headers : [String : String] = [:]) -> URLRequest? {
-        
-       var components = URLComponents()
-       components.scheme = "https"
-        components.host = APIConfig.baseUrl
-        components.path = url
-        
-        if parameters.isEmpty == false {
-            components.queryItems = [URLQueryItem(name: "", value: "")]
-        }
-        
-        guard let url1 = components.url else { return nil }
-        
-        var urlRequest = URLRequest(url: url1)
+        guard let requestUrl = URL(string: url) else {return nil}
+        var urlRequest = URLRequest(url: requestUrl)
         urlRequest.timeoutInterval = 10.0
         urlRequest.httpMethod = method.rawValue
-        urlRequest.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
-        urlRequest.setValue("15100", forHTTPHeaderField: "Api-Version")
-        let username = "z-w@kaU$eR"
-        let password = "87f73hHL93G!@773it4"
-        let loginString = "\(username):\(password)"
-        let loginData = loginString.data(using: String.Encoding.utf8)
-        urlRequest.setValue("staging.z-waka.com", forHTTPHeaderField: "Host")
-        let base64LoginString = loginData?.base64EncodedString()
-        urlRequest.setValue("Basic \(base64LoginString ?? "")", forHTTPHeaderField: "Authorization")
-        urlRequest.setValue(LocalizationManager.sharedInstance.getLocale().getContentLanguage(), forHTTPHeaderField: "Accept-Language")
-        if UserDefaultModel.shared.isUserLoggedIn() {
-            urlRequest.setValue(UserDefaultModel.shared.getAuthToken(), forHTTPHeaderField: "Auth-Token")
-            urlRequest.setValue("accepted", forHTTPHeaderField: "Connection-Status")
-            urlRequest.setValue("doctor", forHTTPHeaderField: "User-Type")
-        } else {
-            urlRequest.setValue("pwd", forHTTPHeaderField: "Security-Type")
-        }
-        
         return urlRequest
     }
 }

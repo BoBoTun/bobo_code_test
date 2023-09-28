@@ -31,10 +31,6 @@ extension AuthenticationModel {
         
         
     }
-
-    func getAllUser(){
-        model.retrieveUser(condition: "")
-    }
     func tryToLogin(name : String ,password : String ) {
         loadingPublishSubject.send(true)
         let allUser = model.retrieveAllUser()

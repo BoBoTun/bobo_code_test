@@ -13,8 +13,8 @@ PODS:
   - Realm/Headers (10.20.1)
   - RealmSwift (10.20.1):
     - Realm (= 10.20.1)
-  - SkeletonView (1.30.4)
   - SnapKit (5.6.0)
+  - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
@@ -25,8 +25,8 @@ DEPENDENCIES:
   - lottie-ios
   - NVActivityIndicatorView (~> 4.8.0)
   - RealmSwift
-  - SkeletonView
   - SnapKit
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
@@ -39,8 +39,8 @@ SPEC REPOS:
     - NVActivityIndicatorView
     - Realm
     - RealmSwift
-    - SkeletonView
     - SnapKit
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
@@ -52,9 +52,9 @@ SPEC CHECKSUMS:
   NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
   Realm: fac5ecd031fcb81171627b74944c885662d4b266
   RealmSwift: 9b02d25acb46a14756bde9893abb99e2e3675923
-  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 94fc62f0bab3f59b94f810465679c037f57c505d
+PODFILE CHECKSUM: 0df089b3082d00389bb991dedf1d4173d970ee9c
 
 COCOAPODS: 1.12.1

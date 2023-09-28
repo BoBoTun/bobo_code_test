@@ -27,4 +27,12 @@ public extension UIView {
         layer.shadowOpacity = opacity
         layer.masksToBounds = false
     }
+    
+    func addBorder(borderWidth: CGFloat,borderColor: UIColor,bgColor: UIColor, isRounded: Bool, cornerRadius: CGFloat){
+        layer.backgroundColor = bgColor.cgColor
+        layer.cornerRadius = isRounded ? frame.size.height / 2 : cornerRadius
+        layer.borderColor = borderColor.cgColor
+        layer.borderWidth = borderWidth
+        layer.masksToBounds = true
+    }
 }

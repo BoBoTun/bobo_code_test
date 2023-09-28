@@ -9,13 +9,14 @@ target 'Solinx_iOS_Code_Test' do
   pod 'CombineCocoa'
   pod 'Kingfisher'
   pod 'IQKeyboardManagerSwift'
-  pod 'SkeletonView'
   pod 'lottie-ios'
   pod 'SnapKit'
   pod 'NVActivityIndicatorView' , '~> 4.8.0'
   pod 'CRRefresh'
   pod 'RealmSwift'
-  # Pods for Solinx_iOS_Code_Test
+  pod 'SwiftyJSON'
+  # Pods for Solinx_iOS_Code
+  pod 'Kingfisher'
 
   target 'Solinx_iOS_Code_TestTests' do
     inherit! :search_paths
