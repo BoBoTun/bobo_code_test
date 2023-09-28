@@ -15,9 +15,10 @@ class AppScreens {
 }
 
 extension AppScreens {
-    func navigateToHomeVC(){
+    func navigateToHomeVC(userName : String){
         let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
         let viewController = HomeViewController.init()
+        viewController.userName = userName
         let navigation = UINavigationController(rootViewController: viewController)
         window?.rootViewController = navigation
         window?.makeKeyAndVisible()

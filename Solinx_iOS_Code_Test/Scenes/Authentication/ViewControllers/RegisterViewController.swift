@@ -41,11 +41,54 @@ class RegisterViewController: BaseViewController {
 
     override func bindData() {
         super.bindData()
+        
+        viewModel.errorMessage.sink {
+            self.showToast(message: $0)
+        }.store(in: &bindings)
+        
+        viewModel.registerSuccess.sink {
+            AuthenticationScreen.LoginVC.navigateToHomeVC($0).show()
+            
+        }.store(in: &bindings)
     }
     
     @IBAction func onClickSignUp(_ sender: Any) {
         
-        viewModel.tryToRegister(name: self.txtUserName.text ?? "", password: self.txtPassword.text ?? "")
+        var userName = ""
+        var passWord = ""
+        var confirmPassword = ""
+        if let uName = self.txtUserName.text {
+            if uName.isEmpty || uName == "" {
+                self.showToast(message: "Please enter user name!")
+            }else{
+                userName = uName
+                if let pWord = self.txtPassword.text {
+                    if pWord.isEmpty || pWord == "" {
+                        self.showToast(message: "Please enter your password!")
+                    }else{
+                        passWord = pWord
+                        
+                        if let cpWord = self.txtConfirmPass.text {
+                            if cpWord.isEmpty || cpWord == "" {
+                                self.showToast(message: "Please enter confirm password!")
+                            }else{
+                                confirmPassword = cpWord
+                                
+                                if confirmPassword != passWord {
+                                    self.showToast(message: "Your password does not match.")
+                                }else{
+                                    viewModel.tryToRegister(name: userName, password: passWord)
+                                }
+                                
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        
     }
     
 

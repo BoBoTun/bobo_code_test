@@ -9,12 +9,12 @@ import Foundation
 class AuthenticationScreen {
     enum LoginVC {
         
-        case navigateToHomeVC
+        case navigateToHomeVC(_ userName : String)
         case navigateToRegisterVC
         func show() {
             switch self {
-            case .navigateToHomeVC:
-                AppScreens.shared.navigateToHomeVC()
+            case .navigateToHomeVC(let userName):
+                AppScreens.shared.navigateToHomeVC(userName: userName)
             case .navigateToRegisterVC:
                 AppScreens.shared.navigateToRegisterVC()
             }

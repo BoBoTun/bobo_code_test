@@ -77,6 +77,8 @@
 		5220E75F2AC43C8700FCB260 /* UIDevice + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E75E2AC43C8700FCB260 /* UIDevice + Extension.swift */; };
 		5220E7612AC43CB200FCB260 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7602AC43CB200FCB260 /* UIColor + Extension.swift */; };
 		5220E7632AC43D0A00FCB260 /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5220E7622AC43D0A00FCB260 /* UIViewController + Extension.swift */; };
+		52882D002AC5D04200A5EF2A /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882CFF2AC5D04100A5EF2A /* AlertManager.swift */; };
+		52882D032AC5D10D00A5EF2A /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52882D022AC5D10D00A5EF2A /* HomeScreen.swift */; };
 		52AB27012AC48672003ACC53 /* InternetConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB26FF2AC48671003ACC53 /* InternetConnectionManager.swift */; };
 		52AB27022AC48672003ACC53 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27002AC48672003ACC53 /* UserDefaultManager.swift */; };
 		52AB270A2AC4871A003ACC53 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AB27042AC48718003ACC53 /* APIService.swift */; };
@@ -156,6 +158,8 @@
 		5220E75E2AC43C8700FCB260 /* UIDevice + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice + Extension.swift"; sourceTree = "<group>"; };
 		5220E7602AC43CB200FCB260 /* UIColor + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		5220E7622AC43D0A00FCB260 /* UIViewController + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		52882CFF2AC5D04100A5EF2A /* AlertManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		52882D022AC5D10D00A5EF2A /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		52AB26FF2AC48671003ACC53 /* InternetConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetConnectionManager.swift; sourceTree = "<group>"; };
 		52AB27002AC48672003ACC53 /* UserDefaultManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
 		52AB27042AC48718003ACC53 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
@@ -352,6 +356,7 @@
 		5220E7182AC4092600FCB260 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				52882D012AC5D0F300A5EF2A /* Navigation */,
 				5220E71A2AC4093800FCB260 /* Views */,
 				5220E7192AC4092F00FCB260 /* ViewControllers */,
 			);
@@ -493,9 +498,18 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		52882D012AC5D0F300A5EF2A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				52882D022AC5D10D00A5EF2A /* HomeScreen.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		52AB26FE2AC48642003ACC53 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				52882CFF2AC5D04100A5EF2A /* AlertManager.swift */,
 				52AB271F2AC5325D003ACC53 /* DBManager.swift */,
 				52AB27172AC48AAB003ACC53 /* LocalizationManager.swift */,
 				52AB26FF2AC48671003ACC53 /* InternetConnectionManager.swift */,
@@ -844,6 +858,7 @@
 				5220E7382AC429F000FCB260 /* UIViewExtention.swift in Sources */,
 				5220E7302AC40C0200FCB260 /* RegisterViewController.swift in Sources */,
 				5220E75F2AC43C8700FCB260 /* UIDevice + Extension.swift in Sources */,
+				52882D002AC5D04200A5EF2A /* AlertManager.swift in Sources */,
 				52AB270B2AC4871A003ACC53 /* APIError.swift in Sources */,
 				5220E7422AC4367C00FCB260 /* BaseViewController.swift in Sources */,
 				52AB27282AC57976003ACC53 /* UserModel.swift in Sources */,
@@ -874,6 +889,7 @@
 				52AB270A2AC4871A003ACC53 /* APIService.swift in Sources */,
 				52AB27162AC48A9B003ACC53 /* UserDefaultModel.swift in Sources */,
 				52AB27022AC48672003ACC53 /* UserDefaultManager.swift in Sources */,
+				52882D032AC5D10D00A5EF2A /* HomeScreen.swift in Sources */,
 				5220E75A2AC43C2800FCB260 /* UIImage + Extension.swift in Sources */,
 				5220E74D2AC436B700FCB260 /* BaseTableViewCell.swift in Sources */,
 				5220E6F42AC3EF6C00FCB260 /* SplashViewController.swift in Sources */,

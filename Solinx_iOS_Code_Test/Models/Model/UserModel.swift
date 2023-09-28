@@ -42,6 +42,11 @@ extension UserModel {
          return list
      }
      */
+    
+    func retrieveAllUser() -> [UserRo] {
+        let result = db.retrieveDataList(type: UserRo.self)
+        return Array(result)
+    }
     func retrieveUser(condition: String) {
         
         let result = db.retrieveDataList(type: UserRo.self)//db.getObjectByName(name: condition)//db.getDataWith(type: UserRo.self, condition: "name == \(condition)")

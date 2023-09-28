@@ -27,18 +27,35 @@ class LoginViewController: BaseViewController {
     
     override func bindData() {
         super.bindData()
+        viewModel.loginSuccess.sink {
+            AuthenticationScreen.LoginVC.navigateToHomeVC($0).show()
+        }.store(in: &bindings)
         
-//        btnSigin.tapPublisher.sink {
-//            AuthenticationScreen.LoginVC.navigateToHomeVC.show()
-//        }.store(in: &bindings)
-//        
-//        btnSignUp.tapPublisher.sink {
-//            AuthenticationScreen.LoginVC.navigateToRegisterVC.show()
-//        }.store(in: &bindings)
+        viewModel.errorMessage.sink {
+            self.showToast(message: $0)
+        }.store(in: &bindings)
     }
     @IBAction func onClickSigin(_ sender: Any) {
         //AuthenticationScreen.LoginVC.navigateToHomeVC.show()
-        viewModel.getAllUser()
+        var userName = ""
+        var passWord = ""
+        if let uName = self.txtUserName.text {
+            if uName.isEmpty || uName == "" {
+                self.showToast(message: "Please enter user name!")
+            }else{
+                userName = uName
+                if let pWord = self.txtPassword.text {
+                    if pWord.isEmpty || pWord == "" {
+                        self.showToast(message: "Please enter your password!")
+                    }else{
+                        passWord = pWord
+                        
+                        viewModel.tryToLogin(name: userName, password: passWord)
+                    }
+                }
+            }
+        }
+        
     }
     
     @IBAction func onClickRegister(_ sender: Any) {
